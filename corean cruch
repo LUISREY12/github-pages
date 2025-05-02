@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Corean Crunch</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            height: 150px;
+        }
+
+        nav {
+            background-color: #e74c3c;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+            background-color: #c0392b;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #922b21;
+        }
+
+        section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 900px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #c0392b;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        .color-box {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .circle {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .ecologia {
+            background-color: #eafbe7;
+            border-left: 6px solid #2ecc71;
+        }
+
+        .contacto i {
+            margin-right: 8px;
+        }
+
+        .contacto p {
+            margin: 8px 0;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="LOGO.png" alt="Logo Corean Crunch">
+    <h1>Corean Crunch</h1>
+</header>
+
+<nav>
+    <a href="#producto">Producto</a>
+    <a href="#colores">Colores</a>
+    <a href="#ecologia">Ecología</a>
+    <a href="#costos">Costos</a>
+    <a href="#competencia">Competencia</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="producto">
+    <h2>Producto a Producir</h2>
+    <p>Banderillas Coreanas</p>
+
+    <h2>Descripción del Producto</h2>
+    <p>Banderilla de queso y salchicha cubierta con masa preparada y topping a elección.</p>
+
+    <h2>Misión</h2>
+    <p>Ofrecemos una experiencia gastronómica auténtica fusionando innovación y tradición. Nos comprometemos con la calidad y el sabor único.</p>
+
+    <h2>Visión</h2>
+    <p>Convertirnos en la opción favorita de los estudiantes ofreciendo snacks innovadores y deliciosos.</p>
+
+    <h2>Precio de Venta</h2>
+    <p><strong>$44 por banderilla</strong></p>
+</section>
+
+<section id="colores">
+    <h2>Significado de los Colores del Logo</h2>
+    <div class="color-box"><div class="circle" style="background-color:#000;"></div> <strong>Negro:</strong> Elegancia, poder, estabilidad, inteligencia.</div>
+    <div class="color-box"><div class="circle" style="background-color:#fff; border:1px solid #ccc;"></div> <strong>Blanco:</strong> Paz, limpieza, armonía, seguridad.</div>
+    <div class="color-box"><div class="circle" style="background-color:#f8a5c2;"></div> <strong>Rosa:</strong> Ternura, dulzura, afecto.</div>
+    <div class="color-box"><div class="circle" style="background-color:#8d6e63;"></div> <strong>Marrón:</strong> Calidez, naturaleza, estabilidad.</div>
+    <div class="color-box"><div class="circle" style="background-color:#e74c3c;"></div> <strong>Rojo:</strong> Pasión, energía, amor, determinación.</div>
+</section>
+
+<section id="ecologia">
+    <h2>Compromiso Ecológico</h2>
+    <div class="ecologia">
+        <p>En Corean Crunch buscamos reducir nuestro impacto ambiental usando empaques biodegradables, promoviendo el reciclaje y reduciendo el uso de plásticos de un solo uso.</p>
+        <p>Trabajamos con ingredientes locales para apoyar la economía y reducir la huella de carbono.</p>
+    </div>
+</section>
+
+<section id="costos">
+    <h2>Costos Fijos</h2>
+    <table>
+        <tr><th>Nombre del insumo</th><th>Descripción</th><th>Unidades</th><th>Unidad ($)</th><th>Total ($)</th></tr>
+        <tr><td>Trabajador</td><td>1 mes</td><td>1</td><td>$2500</td><td>$2500</td></tr>
+        <tr><td>Gas LP</td><td>1 kg</td><td>1</td><td>$1</td><td>$1</td></tr>
+        <tr><td>Banderilla</td><td>-</td><td>1</td><td>$2</td><td>$2</td></tr>
+    </table>
+    <p><strong>Total Costos Fijos: $2501</strong></p>
+
+    <h2>Costos Variables</h2>
+    <table>
+        <tr><th>Insumo</th><th>Descripción</th><th>Unidades</th><th>Precio unidad ($)</th><th>Total ($)</th></tr>
+        <tr><td>Salchicha</td><td>Fud</td><td>1</td><td>$4</td><td>$4</td></tr>
+        <tr><td>Salsa</td><td>Valentina</td><td>2 oz</td><td>$3</td><td>$3</td></tr>
+        <tr><td>Cátsup</td><td>Del Monte</td><td>2 oz</td><td>$2</td><td>$4</td></tr>
+        <tr><td>Aderezo</td><td>Casero</td><td>2 oz</td><td>$3</td><td>$3</td></tr>
+        <tr><td>Queso</td><td>Manchego</td><td>10g</td><td>$6</td><td>$6</td></tr>
+        <tr><td>Pan molido</td><td>Bimbo</td><td>10g</td><td>$2</td><td>$2</td></tr>
+        <tr><td>Harina</td><td>Casera</td><td>50g</td><td>$6.5</td><td>$6.5</td></tr>
+        <tr><td>Aceite</td><td>1.2.3</td><td>100ml</td><td>$5</td><td>$5</td></tr>
+        <tr><td>Palitos</td><td>Brochetas</td><td>1</td><td>$1</td><td>$1</td></tr>
+        <tr><td>Plato</td><td>Casero</td><td>1</td><td>$2</td><td>$2</td></tr>
+        <tr><td>Vaso</td><td>Aderezo</td><td>1</td><td>$1</td><td>$1</td></tr>
+        <tr><td>Polvo Fleming hot</td><td>Cheetos</td><td>10g</td><td>$2.5</td><td>$2.5</td></tr>
+        <tr><td>Papa</td><td>-</td><td>10g</td><td>$1</td><td>$1</td></tr>
+    </table>
+    <p><strong>Total Costos Variables: $41</strong></p>
+
+    <h2>Costos Totales</h2>
+    <p><strong>CT = CF + CV = $2501 + $41 = $2542</strong></p>
+</section>
+
+<section id="competencia">
+    <h2>Análisis de la Competencia</h2>
+    <ul>
+        <li><strong>Fondas locales:</strong> $50. Buena presentación pero tamaño pequeño. Ubicación: Tlanixco centro.</li>
+        <li><strong>Puestos callejeros:</strong> $50. Buen sabor, pero demasiado grasosos y poco cocidos. Ubicación: Tlanixco centro.</li>
+    </ul>
+</section>
+
+<section id="contacto" class="contacto">
+    <h2 style="color: #e74c3c;">Contacto</h2>
+    <p>📍 Dirección: Domicilio Tezcatl S/N, San Pedro Tlanixco, Tenango del Valle, Colonia Azteca, C.P. 52356, Estado de México</p>
+    <p>📞 Teléfono: 729 543 1777</p>
+    <p>📧 Correo electrónico: CoreanChunch@gmail.com</p>
+</section>
+
+<footer>
+    © 2025 Corean Crunch - Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
